@@ -2,11 +2,11 @@
 
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('Hello world\n');
+  res.end('This is it');
 });
 
 app.listen(PORT, HOST);
