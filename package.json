@@ -1,0 +1,18 @@
+{
+  "name": "docker-web-app",
+  "version": "1.0.0",
+  "description": "A simple docker web-app using nodeJs.",
+  "main": "main.js",
+  "scripts": {
+    "start":"node main.js", 
+    "test":"mocha" 
+  },
+  "author": "M. van den Biggelaar",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
